@@ -4,8 +4,8 @@ install: true
 addons:
   sonarcloud:
     organization: hi
-    token:f56f1af84cf704a88d9f5f6e53e7655721df2b6c
-      secure: "your_token_encrypted_with_travis_encrypt_tool"
+    token: f56f1af84cf704a88d9f5f6e53e7655721df2b6c
+     
 jdk:
   - oraclejdk8
 script:
